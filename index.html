@@ -1,143 +1,140 @@
+<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <title>Finanças Pessoais</title>
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Com defeito</title>
 </head>
 
 <body>
-
     <header>
-        <!--inicio header-->
-
-        <nav class="navbar navbar-expand-sm navbar-ligth bg-warning">
-            <!--inicio nav-->
+        <!-- Início -->
+        <nav class="navbar navbar-expand-sm navbar-light bg-warning">
+            <!-- Início -->
 
             <div class="container">
-                <!--inicio container-->
-
+                <!-- Início container -->
                 <a href="" class="navbar-brand">
                     <img src="img/logo.png" alt="" width="142">
+
                 </a>
 
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span> <!-- Span abre e fecha -->
                 </button>
 
                 <div class="collapse navbar-collapse" id="nav-principal">
-                    <!--inicio cabeçalho-->
-
+                    <!-- Início menu -->
                     <ul class="navbar-nav ml-auto">
-
                         <li class="nav-item">
                             <a href="" class="nav-link">Home</a>
                         </li>
-
                         <li class="nav-item">
                             <a href="" class="nav-link">Recursos</a>
                         </li>
-
                         <li class="nav-item">
-                            <a href="" class="nav-link">Beneficios</a>
+                            <a href="" class="nav-link">Benefícios</a>
                         </li>
-
                         <li class="nav-item">
                             <a href="" class="nav-link">Preços</a>
                         </li>
-
                         <li class="nav-item">
-                            <a href="" class="btn btn-outline-ligth ml-4">Entrar</a>
+                            <a href="" class="btn btn-outline-light ml-4">Entrar</a>
                         </li>
-
                     </ul>
+                </div> <!-- Fim menu -->
 
-                </div>
-                <!--fim cabeçalho-->
-
-            </div>
-
-        </nav>
-        <!--fim nav-->
-
-    </header>
-    <!--fim header-->
+            </div> <!-- Fim container -->
+        </nav> <!-- Fim -->
+    </header> <!-- Fim -->
 
     <section id="home">
-        <!--inicio seção-->
-
+        <!-- Início section -->
         <div class="container">
-            <!--inicio container-->
-
-            <div class="row">
-                <!--inicio row-->
-
-                <div class="cold-md-6 d-flex">
-                    <!--inicio textos seção-->
-
-                    <div class="aligth-self-center">
-                        <!--inicio conteudo-->
-
-                        <h1 class="display-4">Suas contas, Descomplicadas</h1>
-                        <p>Usado por mais de 1 milhão de pessoas, o finans é uma ferramenta online que vai facilitar sua
-                            vida financeira</p>
-
+            <!-- Início container -->
+            <div class="row text-border">
+                <!-- Início row -->
+                <div class="col-md-6 d-flex">
+                    <!-- Início textos seção -->
+                    <div class="align-self-center">
+                        <!-- Início conteúdo -->
+                        <h1 class="display-4">Suas contas, descomplicadas.</h1>
+                        <p>Usado por mais de 1 milhão de pessoas, o Finans é uma ferramenta online que vai facilitar sua
+                            vida financeira.</p>
                         <form class="mt-4 mb-4">
-
                             <div class="input-group input-group-lg">
-                                <input type="text" placeholder="Seu email" class="form-control">
+                                <input type="text" placeholder="Seu e-mail" class="form-control">
                                 <div class="input-group-append">
                                     <button type="button" class="btn btn-primary">Cadastre-se</button>
                                 </div>
                             </div>
-
                         </form>
-
-                        <p>Disponivel para
-                            <a href="" class="btn btn-outline-ligth">
+                        <p>
+                            Disponível para
+                            <a href="" class="btn btn-outline-success">
                                 <i class="fab fa-android fa-lg"></i>
                             </a>
-                            <a href="" class="btn btn-outline-ligth">
+                            <a href="" class="btn btn-outline-dark">
                                 <i class="fab fa-apple fa-lg"></i>
                             </a>
                         </p>
-
-                    </div>
-                    <!--fim conteudo-->
-
-                </div>
-                <!--fim textos seção-->
-
+                    </div> <!-- Fim conteúdo -->
+                </div> <!-- Fim textos seção -->
                 <div class="col-md-6 d-none d-md-block">
-
                     <img src="img/capa-mulher.png" alt="">
+                </div>
+            </div> <!-- Fim row -->
+        </div> <!-- Fim container -->
+    </section> <!-- Fim section -->
 
+    <section class="caixa">
+        <div class="container">
+            <!-- Início conteiner -->
+            <div class="row">
+                <!-- Início row -->
+                <div class="col-md-6">
+                    <img src="img/saiba.png" alt="">
+                </div>
+                <div class="col-md-6 d-flex">
+                    <!-- Início flex -->
+                    <div class="align-self-center">
+                        <h2>Saiba para onde vai o seu dinheiro</h2>
+                        <p>
+                            Com Finans, você categoriza todos os seus lançamentos. Com gráficos simples...
+                        </p>
+                        <a href="" class="btn btn-primary">Veja mais</a>
+                    </div>
+                </div> <!-- Fim flex -->
+
+                <div class="col-md-6">
+                    <img src="img/saiba.png" alt="">
                 </div>
 
             </div>
-            <!--fim row-->
-
         </div>
-        <!--fim container-->
-
     </section>
-    <!--fim seção-->
 
+    <!-- JavaScript (Opcional) -->
+
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>
