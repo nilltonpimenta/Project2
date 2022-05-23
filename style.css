@@ -2,3 +2,18 @@
     background: #ffc107;
     color: white;
 }
+
+.caixa {
+    padding: 60px 0;
+    border-bottom: 1px solid goldenrod;
+}
+
+footer  {
+    background: #ffc107;
+    border-radius: 10px
+}
+
+footer p a {
+    margin: 5px 15px;
+    align-self: center;
+}
